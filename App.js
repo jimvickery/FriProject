@@ -3,11 +3,9 @@ import { AppRegistry, Image } from 'react-native';
 
 export default class Bananas extends Component {
   render() {
-    let pic = {
-      uri: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg'
-    };
+    let pic = { uri: "https://sillysnap.s3.amazonaws.com/uploads/gallery/picture/113/thumb_coke_dog.gif"};
     return (
-      <Image source={pic} style={{width: 193, height: 110}}/>
+      <Image source={pic} style={{width: 173, height: 180}}/>
     );
   }
 }
